@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	}
 	i++;
 
-	while (i<= end)
+	while (i <= end)
 	{
 		write(1, &argv[1][i], 1);
 		i++;
